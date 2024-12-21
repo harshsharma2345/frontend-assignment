@@ -2,14 +2,22 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding: 50px;
-  height: calc(100vh - 100px);
+  height: calc(100vh - 200px);
 
   font-size: 21px;
 }
+.loaderAlign {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 100px);
+}
 table th {
   text-align: left;
+  background-color: #2563eb;
+  color: white;
 }
 
 table,
@@ -17,13 +25,20 @@ th,
 td {
   border: 1px solid #ddd;
   border-collapse: collapse;
-  padding: 41px 161px;
+  padding: 3vh 5vw;
 }
 
 .table tr:nth-child(even) {
-  background-color: #f2f2f2;
+  background-color: #eff6ff;
 }
 
 .table tr:hover {
-  background-color: #ddd;
+  background-color: #dbeafe;
+}
+
+.paginationStyle{
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
